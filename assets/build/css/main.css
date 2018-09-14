@@ -7004,19 +7004,6 @@ a.text-dark:hover, a.text-dark:focus {
 .carousel-indicators li.active {
   background: radial-gradient(#fff 3px, #ffffff00 3px, #ffffff00); }
 
-.carousel-inner > .item > img {
-  width: 100%; }
-
-.carousel-indicators > li:nth-of-type(3n+2),
-.carousel-indicators > li:nth-of-type(3n+3) {
-  margin-left: -15px;
-  position: relative;
-  z-index: -1; }
-
-.carousel-indicators > li.active:nth-of-type(3n+2),
-.carousel-indicators > li.active:nth-of-type(3n+3) {
-  margin-left: -16px; }
-
 @media only screen and (max-width: 768px) {
   .header__title,
   .header__telephone {
