@@ -1,0 +1,259 @@
+.header__logo {
+    font-size: 30px;
+    letter-spacing: 11px;
+    font-weight: 600;
+}
+.header__title {
+    font-size: 14px;
+}
+.header__telephone {
+    font-size: 34px;
+    font-weight: 800;
+}
+
+.header__call__btn, .header__call__btn:focus,
+.header__call__btn:active, .header__call__btn:hover,
+.header__call__btn:active:focus{
+    background-color: $orange;
+    border:1px solid $orange;
+    box-shadow: none;
+    color: $white;
+}
+.header__call__btn:focus,
+.header__call__btn:active, .header__call__btn:hover,
+.header__call__btn:active:focus {
+    background-color:darken( $orange, 10% );
+    border:1px solid darken( $orange, 10% );
+}
+
+#myCarousel .carousel-item {
+    min-height: 800px;
+}
+#myCarousel .carousel-item img{
+    min-height: 800px;
+    width: 100%;
+}
+.custom-menu {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    letter-spacing: 2px;
+    background-color: rgba(0,0,0,0.5);
+}
+.custom-menu a:hover,
+.custom-menu a:active,
+.custom-menu a:focus {
+    text-decoration: none;
+    font-weight: 600;
+}
+.custom-menu a {
+    text-transform: uppercase;
+    display: inline-block;
+    color: $white;
+    width: 20%;
+    font-size: 12px;
+    text-align: center; 
+}
+.custom-menu a:not(:first-of-type){
+    border-left: 1px solid $white;  
+}
+.advantages{
+    position: absolute;
+    z-index: 1;
+    top: 65.25%;
+    height: 34.75%;
+    background-color: $transparentwhite;
+    width: 100%;
+} 
+.advantages img{
+    width: 100px;
+    height: 100px;
+}
+.advantages p{
+    font-weight: 600;
+    text-align: center;
+    font-size: 0.80rem;
+}
+.advantages h2{
+    font-size: 1rem;
+}
+.carousel__item__content.carousel-caption {
+    top: 42px;
+    bottom: 65.25%;
+    left: 10%;
+    right: 10%;
+}
+
+.content__wrapper,
+.content__wrapper__border {
+    transform: skewX(-16deg);
+}
+.content__wrapper{
+    padding-left: 10px;
+}
+.content__main__title__wrapper{
+    display: inline-block;
+    background-color: $transparentwhite;
+}
+.content__wrapper__border {
+    width: 3px;
+    height: 12.25rem;
+    top: 20px;
+    bottom: 65.25%;
+    position: absolute;
+    background-color: $white;
+}
+.content__main__title {
+    display: inline-block;
+    font-size: 5.5rem;
+    font-weight: 800;
+    line-height: 7rem;
+    color: $black;
+    text-transform: uppercase;
+    transform: skewX(16deg);
+}
+.item__title {
+    color: $black;
+    font-size: 2.5rem;
+    font-weight: 800;
+    display: inline-block;
+    transform: skewX(10deg);
+}
+.item__title hr{
+    background-color: $black;
+    margin: 0 0 10px;
+    height: 3px;
+}
+.price {
+    transform: skewX(16deg);
+    color: $white;
+    display: inline-block;
+    padding: 0 2rem 0.25rem;
+}
+.content__blocks {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.price__wrapper {
+    background-image: $lightGreenGradient;
+    display: inline-block;
+}
+.item__title__wrapper {
+    background-color: $transparentwhite;
+    display: inline-block;
+    margin-right: 10px;
+}
+.price strong{
+    font-size:3rem;
+    line-height: 3.5rem;
+}
+.price small{
+    font-size:1rem;
+}
+.item__btn a,
+.item__btn a:focus,
+.item__btn a:hover,
+.item__btn a:active{ 
+    font-size: 1.5rem;
+    border:2px solid $white;
+    text-transform: uppercase;
+    border-radius: 5px;
+    min-width: 215px;
+}
+.item__text {
+    font-size: 1.25rem;
+    margin: 1rem -1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+#myCarousel .container>.carousel-control-prev,
+#myCarousel .container>.carousel-control-next{
+    bottom: -15%;
+    opacity: 0.8;
+}
+.carousel-control-next{
+    left: 21%;
+}
+.carousel-control-prev{
+    left: 3.5%;
+}
+#myCarousel .carousel-control-next i,
+#myCarousel .carousel-control-prev i{
+    font-size: 4rem;
+}
+#myCarousel .carousel-control-prev:hover,
+#myCarousel .carousel-control-prev:focus, 
+#myCarousel .carousel-control-next:hover,
+#myCarousel .carousel-control-next:focus{
+    opacity: 1;
+}
+.carousel-indicators{
+    margin-left: 0;
+    left: 11%;
+    height: 40px;
+    bottom: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.carousel-indicators li {
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+    font-weight: 800;
+    opacity: 1;
+    background-color: #ffffff00;
+    border: 2px solid $white;
+  }
+  .carousel-indicators li.active{
+    background: radial-gradient($white 3px, #ffffff00 3px, #ffffff00);
+  }
+
+
+  .carousel-inner > .item > img {
+    width: 100%;
+  }
+  .carousel-indicators > li:nth-of-type(3n+2),
+  .carousel-indicators > li:nth-of-type(3n+3) {
+    margin-left: -15px;
+    position: relative;
+    z-index: -1;
+  }
+  .carousel-indicators > li.active:nth-of-type(3n+2),
+  .carousel-indicators > li.active:nth-of-type(3n+3) {
+    margin-left: -16px;
+  }
+
+
+  @media  only screen and (max-width: 768px){
+    .header__title,
+    .header__telephone{
+        display: none;
+    }
+    
+    #myCarousel .carousel-item {
+        min-height: auto;
+    }
+    #myCarousel .carousel-item img{
+        min-height: auto;
+    }
+    .carousel__item__content {
+        display: none;
+    }
+    .advantages{
+        top: 100%;
+    }
+    .carousel-control-prev{
+        left: 20%;
+    }
+    .carousel-control-next{
+        left: 80%;
+    }
+    .custom-menu {
+        display: none;
+    }
+    .carousel-indicators{
+        display: none;
+    }
+  }
